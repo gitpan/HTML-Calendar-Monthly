@@ -9,7 +9,8 @@ WriteMakefile
                          ],
           'VERSION_FROM' => 'lib/HTML/Calendar/Monthly.pm',
           'PREREQ_PM' => {
-                           'Test::More' => 0
+                           'Test::More' => 0,
+                           'Date::Simple' => 0
                          }
         )
 ;
