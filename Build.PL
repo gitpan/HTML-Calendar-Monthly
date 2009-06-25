@@ -11,6 +11,9 @@ my $builder = Module::Build->new(
     build_requires => {
         'Test::More' => 0,
     },
+    requires => {
+        'Date::Simple' => 0,
+    },
     script_files    => [ map { File::Spec->catfile("script", $_) }
 			 qw(hcgen) ],
     add_to_cleanup      => [ 'HTML-Calendar-Monthly-*' ],

@@ -1,18 +1,18 @@
 package HTML::Calendar::Monthly;
 
 # Monthly.pm -- A very simple HTML calendar
-# RCS Info        : $Id: Monthly.pm,v 1.3 2009/06/02 07:10:07 jv Exp $
+# RCS Info        : $Id: Monthly.pm,v 1.4 2009/06/25 09:18:25 jv Exp $
 # Author          : Johan Vromans
 # Created On      : Thu Apr 30 22:13:00 2009
 # Last Modified By: Johan Vromans
-# Last Modified On: Tue Jun  2 09:10:02 2009
-# Update Count    : 3
+# Last Modified On: Thu Jun 25 11:18:16 2009
+# Update Count    : 4
 # Status          : Unknown, Use with caution!
 
 use strict;
 use warnings;
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 =head1 NAME
 
